@@ -576,7 +576,7 @@ section {
   ---------------------------------------*/
 
 #home {
-  background: url("/home/aman/Downloads/national-cancer-institute-KMvoHcB-w5g-unsplash.jpg")
+  background: url("../images/background.jpg")
     center center;
   background-size: cover;
   vertical-align: middle;
