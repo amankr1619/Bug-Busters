@@ -29,6 +29,5 @@
     // PARALLAX EFFECT
     $.stellar({
       horizontalScrolling: false,
-    }); 
-
+    });
 })(jQuery);
