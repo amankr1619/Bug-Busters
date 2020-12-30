@@ -324,6 +324,10 @@ section {
   padding: 0;
 }
 
+.linkHover:hover {
+  color: #00e676 !important;
+}
+
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
