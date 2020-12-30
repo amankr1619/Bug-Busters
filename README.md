@@ -1,8 +1,10 @@
 # Healthsy
-
-**Link of App Repository:** https://www.github.com/kpriyanksingh/healthsy_app<br>
-**Link of Website:** https://healthsy.netlify.app/<br>
-**Link of Demo Video:** https://youtu.be/vamrzCe_WUw
+## This repository contains the source code for website of our app *Healthsy*
+**Demo Video:** https://youtu.be/vamrzCe_WUw<br>
+**Website:** https://healthsy.netlify.app/<br>
+**ML Models Repo:** https://github.com/Aman-1701/Hack_Nagpur<br>
+**App Repository:** https://www.github.com/kpriyanksingh/healthsy_app<br>
+**APK File (Profile Version):** https://drive.google.com/drive/folders/1fVnlYrMQ7uYpj_pysQRn48fU1BzjmIIo?usp=sharing
 
 Industrial Revolution 4.0 has put us in a critical spot to gather and manipulate huge amounts of data and automation is an integral part of the 21st century now. Almost every sector of the present world is directly or indirectly dependent on machines or in broad sense Artificial Intelligence and the medical field is no more an exception. With the increasing pressure and rush it becomes really important to automate health services and at certain instances it has been observed that AI has taken over humans. 
 
@@ -32,9 +34,11 @@ The models are trained in such a way that the predictions do not get biased. All
 
 **4. Frauds:** Several cases are reported in recent times where many frauds have taken place in the name of prediction of disease. This tool can serve  as a primary tool for confirmation. 
 
-**Link of App Repository:** https://www.github.com/kpriyanksingh/healthsy_app<br>
-**Link of Website:** https://healthsy.netlify.app/<br>
-**Link of Demo Video:** https://youtu.be/vamrzCe_WUw
+**Demo Video:** https://youtu.be/vamrzCe_WUw<br>
+**Website:** https://healthsy.netlify.app/<br>
+**ML Models Repo:** https://github.com/Aman-1701/Hack_Nagpur<br>
+**App Repository:** https://www.github.com/kpriyanksingh/healthsy_app<br>
+**APK File (Profile Version):** https://drive.google.com/drive/folders/1fVnlYrMQ7uYpj_pysQRn48fU1BzjmIIo?usp=sharing
 
 ## DATASET USED:
 **Pima Indian Diabetes Dataset:** https://www.kaggle.com/uciml/pima-indians-diabetes-database
