@@ -210,7 +210,7 @@ section {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 #ece7e7;
 }
 
 .spinner {
@@ -656,7 +656,6 @@ section {
 .card-images {
   margin: 0 auto;
   box-shadow: 5px 5px 5px 5px lightgray;
-  box
 }
 /*---------------------------------------
       WORK             
@@ -839,7 +838,7 @@ section {
   background-image: url("../images/diabetes-01.png");
 }
 .card:nth-child(6):before {
-  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../images/coming-soon.png);
 }
 
 .content {
@@ -1066,6 +1065,10 @@ footer span,
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 5em;
   padding-top: 3em;
+}
+
+.link-color:hover {
+  color: #00e676;
 }
 
 /*---------------------------------------
