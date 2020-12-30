@@ -30,37 +30,37 @@ h6 {
 
 h1 {
   color: #292929;
-  font-size: 3em;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 
 h2 {
   color: #393939;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 h3 {
   color: #505050;
-  font-size: 1.5em;
+  font-size: 27px;
   font-weight: 500;
-  margin-bottom: 0;
 }
 
 h4 {
   color: #696969;
-  font-size: 18px;
+  font-size: 22px;
   line-height: normal;
 }
 
 p {
   color: #757575;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 25px;
+  text-align: justify;
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /*---------------------------------------
@@ -106,7 +106,7 @@ a:focus {
 }
 
 .section-title .line-bar {
-  color: #d9d9d9;
+  color: #00e676;
   display: block;
   font-size: 5em;
   line-height: 0;
@@ -116,7 +116,7 @@ a:focus {
   background: #00e676;
   border: 0;
   border-radius: 100px;
-  color: #ffffff;
+  color: red;
   cursor: pointer;
   font-size: inherit;
   font-weight: normal;
@@ -139,14 +139,14 @@ a:focus {
   background: -moz-linear-gradient(
     90deg,
     hsla(154, 100%, 76%, 1) 0%,
-    hsla(234, 100%, 83%, 1) 50%,
+    hsla(234, 100%, 83%, 1) 70%,
     hsla(288, 100%, 81%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
     hsla(154, 100%, 76%, 1) 0%,
-    hsla(234, 100%, 83%, 1) 50%,
+    hsla(234, 100%, 83%, 1) 40%,
     hsla(288, 100%, 81%, 1) 100%
   );
 
@@ -168,14 +168,14 @@ a:focus {
   background: -moz-linear-gradient(
     90deg,
     hsla(154, 100%, 76%, 1) 0%,
-    hsla(234, 100%, 83%, 1) 50%,
+    hsla(234, 100%, 83%, 1) 70%,
     hsla(288, 100%, 81%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
     hsla(154, 100%, 76%, 1) 0%,
-    hsla(234, 100%, 83%, 1) 50%,
+    hsla(234, 100%, 83%, 1) 40%,
     hsla(288, 100%, 81%, 1) 100%
   );
 
@@ -576,8 +576,7 @@ section {
   ---------------------------------------*/
 
 #home {
-  background: url("../images/background.jpg")
-    center center;
+  background: url("../images/background.jpg") center center;
   background-size: cover;
   vertical-align: middle;
   display: -webkit-box;
@@ -609,7 +608,7 @@ section {
 .home-info .section-btn:focus {
   background: #ce3232;
   border-color: transparent;
-  color: #ffffff;
+  color: #00e676;
 }
 
 /*---------------------------------------
@@ -642,6 +641,22 @@ section {
 .vid {
   margin: 0 auto;
   border: 10px inset #427592;
+}
+
+.card-headings {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.card-head {
+  text-align: center;
+  font-weight: 500;
+  margin: 0.5em;
+}
+
+.card-images {
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  box
 }
 /*---------------------------------------
       WORK             
@@ -742,7 +757,7 @@ section {
 }
 @media (min-width: 800px) {
   .page-content {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -825,12 +840,6 @@ section {
 }
 .card:nth-child(6):before {
   background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-.card:nth-child(7):before {
-  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-.card:nth-child(8):before {
-  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
 
 .content {
@@ -1071,11 +1080,14 @@ footer span,
 
 @media screen and (max-width: 991px) {
   h3 {
-    font-size: 1.2em;
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 18px;
   }
 
   p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   #home {
@@ -1171,6 +1183,6 @@ footer span,
 
 @media screen and (max-width: 639px) {
   h1 {
-    font-size: 2em;
+    font-size: 32px;
   }
 }
