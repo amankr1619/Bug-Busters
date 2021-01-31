@@ -1010,6 +1010,20 @@ section {
   color: rgba(20, 20, 20, 0.5);
 }
 
+#contact .tandc {
+  box-shadow: none;
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  border: 1px solid #ccc;
+  font: 16px/26px Georgia, Garamond, Serif;
+  overflow: auto;
+  height: 130px;
+  background-color: #ffffff;
+}
+
 #contact input[type="submit"] {
   background: transparent;
   border: 2px solid #f9f9f9;
@@ -1022,6 +1036,15 @@ section {
   background: #ce3232;
   border-color: transparent;
   color: #ffffff;
+}
+
+.check {
+  height: 12px !important;
+  font-weight: 300;
+}
+.checkb {
+  text-align: left !important;
+  margin-bottom: 10px;
 }
 
 /*---------------------------------------
